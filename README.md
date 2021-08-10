@@ -3,7 +3,7 @@
 This is a full stack app that uses React, Node and Redis to update state on the Holy Grail front end template as well as the back end using Redis on top of Docker. Also, Superagent is used to communicate with the server and Express handles API's. The user should be able to update the numbers using icons on each component of the Holy Grail Application on the front end and access that in JSON on the back end with Redis.
 
 ## How to Run
-Clone Repository and then do an npm install to install necessary dependencies such as Express, and Redis. Then use docker run -p 6379:6379 --name some-redis -d redis to setup the Docker Instance on your local machine. Finally, run node index.js and navigate to localhost:3000. Use routes to access database and home route.
+Clone Repository and then do an npm install to install necessary dependencies such as Express, and Redis. Then use docker run -p 6379:6379 --name some-redis -d redis to setup the Docker Instance on your local machine. Finally, run node index.js and navigate to localhost:3000. Use routes to access database and home route as well as updating component numbers using /update/key/value.
 
 ## License
 
